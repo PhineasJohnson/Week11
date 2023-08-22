@@ -193,7 +193,7 @@ public class ProjectDao extends DaoBase {
 				+ "estimated_hours = ?, "
 				+ "actual_hours = ?, "
 				+ "difficulty = ?, "
-				+ "notes = ?, "
+				+ "notes = ? "
 				+ "WHERE project_id = ?";
 		// @formatter:on
 		
